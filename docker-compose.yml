@@ -1,0 +1,8 @@
+services:
+  test-server:
+    image: devadrien123/example-server-docker:latest
+    container_name: test-server
+    ports:
+      - "3000:3000"
+    environment:
+      PORT: 3000
